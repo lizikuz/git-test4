@@ -33,8 +33,8 @@ topology_template:
         ip_version: 4
     Compute:
       metadata:
-        a4c_edit_x: "-344"
-        a4c_edit_y: "-99"
+        a4c_edit_x: "-508"
+        a4c_edit_y: "-95"
       type: tosca.nodes.Compute
       requirements:
         - bindsToPortBinding:
@@ -103,8 +103,8 @@ topology_template:
           type: tosca.artifacts.Implementation.Bash
     Compute_2:
       metadata:
-        a4c_edit_x: "-132"
-        a4c_edit_y: "-127"
+        a4c_edit_x: "-321"
+        a4c_edit_y: "-88"
       type: tosca.nodes.Compute
       requirements:
         - bindsToCompute_2_Port_0Binding:
